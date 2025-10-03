@@ -238,10 +238,15 @@ nav {
 }
 
 
-.section-title {
-   margin-bottom: 1rem;
-  font-size: 2rem;
-  font-weight: 700; 
+.section-title1 {
+   font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
 
 }
 .projects {
@@ -357,18 +362,28 @@ nav {
 }
  
 
+
+
 .section-title {
-   margin-bottom: 1rem;
   font-size: 2rem;
-  font-weight: 700; 
-  padding: 0 10rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
 }
 .skills-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-    padding: 0 10rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: stretch;
 }
+
 
 .skills-category {
     background: #2b1d35;
@@ -577,12 +592,19 @@ nav {
     padding: 0 2rem;              
   }
 }
-@media (max-width: 768px) {
+
+@media screen and (max-width: 768px) {
   .section-title {
-    font-size: 1.5rem;
     text-align: center;
+    font-size: 1.5rem;
+  }
+}@media screen and (max-width: 768px) {
+  .section-title1 {
+    text-align: center;
+    font-size: 1.5rem;
   }
 }
+
 @media (max-width: 768px) {
   .contact__form {
     padding: 1.5rem;
