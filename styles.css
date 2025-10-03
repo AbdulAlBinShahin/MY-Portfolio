@@ -237,12 +237,12 @@ nav {
   margin-bottom: 2rem;
 }
 
-/* Projects Section */
+
 .section-title {
    margin-bottom: 1rem;
   font-size: 2rem;
   font-weight: 700; 
-  padding: 0 10rem;
+
 }
 .projects {
     padding: 100px 0;
@@ -356,13 +356,12 @@ nav {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
  
-/* End of Projects Section */
 
-/* Skills Section */
 .section-title {
    margin-bottom: 1rem;
   font-size: 2rem;
   font-weight: 700; 
+  padding: 0 10rem;
 }
 .skills-content {
     display: grid;
@@ -505,7 +504,6 @@ nav {
   background: var(--gradient-2);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
-/**/
 .contact__form {
   margin-top: 2rem;
   display: flex;
@@ -565,14 +563,14 @@ nav {
   transform: translateY(-3px);
   box-shadow: 0 6px 18px rgba(249, 72, 139, 0.4);
 } 
-/**/
+
 .footer {
   padding: 1rem;
   font-size: 0.9rem;
   color: var(--extra-light);
   text-align: center;
 }
-/**/ 
+
 @media (max-width: 768px) {
   .skills-content {
     grid-template-columns: 1fr;   
